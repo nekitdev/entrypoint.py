@@ -2,6 +2,10 @@
 
 <!-- changelogging: start -->
 
+## [2.1.0](https://github.com/nekitdev/entrypoint/tree/v2.1.0) (2024-06-16)
+
+No significant changes.
+
 ## 2.0.3 (2024-03-15)
 
 ### Internal
