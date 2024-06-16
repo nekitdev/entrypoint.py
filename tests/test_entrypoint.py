@@ -2,7 +2,7 @@ from runpy import run_module
 
 from entrypoint import is_main
 
-CALLED = "CALLED"
+CALLED = "called"
 
 MAIN = "__main__"
 TEST = "__test__"

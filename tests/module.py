@@ -1,10 +1,10 @@
 from entrypoint import entrypoint
 
-CALLED = 0
+called = 0
 
 
 @entrypoint()
 def main() -> None:
-    global CALLED
+    global called
 
-    CALLED += 1
+    called += 1

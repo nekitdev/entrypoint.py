@@ -16,13 +16,13 @@ MAIN = "__main__"
 
 
 def is_main(name: str) -> bool:
-    """Checks if the `name` is equal to `__main__`.
+    """Checks if the `name` is equal to [`MAIN`][entrypoint.core.MAIN].
 
     Arguments:
         name: The name to check.
 
     Returns:
-        Whether the `name` is equal to `__main__`.
+        Whether the `name` is equal to [`MAIN`][entrypoint.core.MAIN].
     """
     return name == MAIN
 
@@ -56,7 +56,7 @@ def entrypoint(name: Optional[str] = None) -> EntryPoint:
 
     Instead of applying dark magic, this function expects
     callers to pass the `__name__` variable as an argument,
-    and merely checks it against `__main__` when needed.
+    and merely checks it against [`MAIN`][entrypoint.core.MAIN] when needed.
 
     In case `__name__` is not provided, this function will attempt to read
     the module name from the function given (via `__module__`).
